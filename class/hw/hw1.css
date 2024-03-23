@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    width : 100vw;
+    height : 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.outbox {
+    width: 540px;
+    height: 900px;
+    border: 1px solid #AACDFF;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+h3 {
+    font-size : 32px;
+    color : #0068FF;
+    font-weight : bold;
+    width : 380px;
+    margin-bottom : 40px;
+}
+
+.inbox {
+    width : 380px;
+    height : 60px;
+    background-color: white;
+    border : 1px solid #D2D2D2;
+    border-radius : 7px;
+    padding: 18px;
+    margin-top : 20px;
+}
+.phone_wrapper {
+    width : 380px;
+    height : 40px;
+    display : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.phone {
+    width : 100px;
+    height: 40px;
+    border-radius : 7px;
+    font-size : 16px;
+    text-align : center;
+    border : 1px solid #D2D2D2;
+}
+
+.location {
+    margin-top: 20px;
+    width: 380px;
+    height: 60px;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 18px;
+    color: #797979;
+}
+
+.token_wrapper {
+    width: 380px;
+    height: 40px;
+    display: flex;
+    flex-direction: row; /* 가로 정렬 */
+    justify-content: flex-end; /* 화면 상  끝 쪽 배치 */
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.token, .token_timer {
+    font-size : 18px;
+    color : #0068FF;
+}
+
+.gender_wrapper {
+    width: 380px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.gender {
+    width: 70px;
+    text-align: center;
+}
+
+#b1 {
+   width : 120px;
+   height : 40px;
+   border-radius: 7px;
+   color : white;
+   background-color : #0068FF;
+}
+
+#send {
+    width : 120px;
+    height : 40px;
+    border-radius: 7px;
+    color : blue;
+    background-color: white;
+}
+
+#signup_button {
+    width: 380px;
+    height: 75px;
+    border: 1px solid #D2D2D2;
+    color : blue;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}

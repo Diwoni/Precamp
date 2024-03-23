@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <link href="./02-signup.css" rel="stylesheet">
+</head>
+<body>
+    <h2>회원가입</h2>
+    <input type="text" placeholder="이메일을 입력" style="border:1px solid red;"><br><br>
+    <input type="text" placeholder="이름을 입력"><br><br>
+    <!-- css 로 style 지정 따로 할 시 type 이 아닌 class 로 묶기 -->
+    <input class="pw" placeholder="비밀번호 입력"><br><br>
+    <input class="pw" placeholder="비밀번호 재입력"><br><br>
+    <select>
+        <option disabled="true" selected="true">지역을 선택하세요</option>
+        <option>서울</option>
+        <option>경기</option>
+        <option>부산</option>
+    </select>
+    <br><br>
+    <input type = "radio" name="gender">여성
+    <input type = "radio" name="gender">남성
+    <br><br>
+    <input type="checkbox"> 이용약관 동의
+    <hr>
+    <button>가입하기</button>  
+    <!-- <input type="button" value="가입하기"> -->
+    <!-- input 태그를 사용하면 버튼 속성을 자유롭게 설정 못한다. (css)-->
+</body>
+</html>

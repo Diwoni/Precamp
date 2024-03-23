@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+    <link href="hw1.css" rel="stylesheet" />
+<body>
+    <div class="outbox">
+        <h3>코드캠프 회원가입</h3>  
+            <input class ="inbox" type="text" placeholder="이메일을 입력해주세요.">
+            <input class ="inbox" type="text" placeholder="이름을 입력해주세요.">
+            <input class ="inbox" type="password" placeholder="비밀번호를 입력해주세요.">
+            <input class ="inbox" type="password" placeholder="비밀번호를 다시 입력해주세요.">
+            <!-- div class 로 inbox 선언해 묶으면
+            상위 outbox css 속성과 별도가 되어 적용이 안되는 문제점 발견..? -->
+        <div class ="phone_wrapper">
+            <input class ="phone" type="text">-
+            <input class ="phone" type="text">-
+            <input class ="phone" type="text">
+        </div>
+
+        <div class ="token_wrapper">
+            <div class="token">000000</div>
+            <button id="send">인증번호 전송</button>
+        </div>
+        
+        <div class ="token_wrapper">
+            <div class="token_timer">2:23</div>
+            <button id="b1">인증 완료</button>
+        </div>
+
+        <select class ="location">
+            <option selected="true" disabled="true">지역을 선택하세요</option>
+            <option>서울</option>
+            <option>경기</option>
+            <option>부산</option>
+        </select>
+        
+        <div class ="gender_wrapper">
+            <div class ="gender">
+                <input type="radio" name="gender">여성
+            </div>
+            <div class ="gender">
+                <input type="radio" name="gender">남성
+            </div>
+        </div>
+
+        <hr></hr>
+        <button id="signup_button">가입하기</button>
+    </div>
+</body>
+</html>
